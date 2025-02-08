@@ -1,10 +1,23 @@
 <html lang="en">
 <head>
+  <!-- Metadatos -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jose Luis Justiniano Cervera">
+    <meta name="description" content="Pagina web para Shany Store">
+    <meta name="keywords" content="Ropa, Pantalones, Vestidos, Playeras">
+    <!-- Titulo -->
     <title>Shany Store</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
     <!-- Barra de navegacion -->
@@ -16,11 +29,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbar-toggler">
         <a class="navbar-brand" href="#">
-          <img src="imagenes/Shany Store.png" width="50" alt="Logo de la página web">
+          <i class="bi bi-handbag"></i> Shany Store
         </a>
         <ul class="navbar-nav d-flex justify-content-center align-items-center">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            <a class="nav-link active" aria-current="page" href="#sobre-shany">Sobre Shany</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#productos">Productos</a>
@@ -45,25 +58,34 @@
   <!-- Seccion Hero -->
   <section class="hero align-items-stretch">
     <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
-      <h1>Shany Store</h1>
-      <h2>Visítanos y sorpréndete</h2>
-    </div>
-    <div class="hero-inferior">
-      <img class="hero-inferior-imagen img-fluid" src="imagenes/Shany Store.png"
+      <img class="hero-imagen-store rounded-circle" src="imagenes/Shany-logo.png"
         alt="Logo de Shany Store">
+      <h1>Bienvenida a Shany Store</h1>
+      <h2>Tu destino de moda y estilo.</h2>
     </div>
   </section>
 
+  <!-- Sobre Shany -->
+  <section id="sobre-shany" class="sobre-shany seccion-oscura">
+    <div class="contenedor">
+      <h2 class="seccion-titulo">Shany Store</h2>
+      <p class="seccion-texto">En Shany Store, creemos que la moda es una forma de expresión personal. 
+        Nuestra pasión es ofrecerte prendas únicas y de alta calidad que te hagan sentir segura y hermosa. 
+        Explora nuestras colecciones y descubre el estilo que te define.</p>
+    </div>
+  </section>
+
+  <!-- Section Productos -->
   <section id="productos" class="cards">
-    <h3>Nuestros productos</h3>
+    <h2 class="seccion-titulo">Nuestros productos</h2>
     <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
             <div class="card">
                 <img src="imagenes/playeras-shany.jpg" class="card-img-top" alt="Variedad de playeras">
                 <div class="card-body">
                   <h5 class="card-title">Playeras</h5>
-                  <p class="card-text">Conoce nuestra gran variedad de playeras de la última temporada 2022, para hombres y
-                    mujeres de todas las edades.</p>
+                  <p class="card-text">Descubre nuestra increíble colección de playeras, con diseños exclusivos y las últimas tendencias de la temporada. 
+                    Encuentra la playera perfecta para expresar tu estilo único.</p>
                   <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
               </div>
@@ -73,8 +95,8 @@
                 <img src="imagenes/pantalones-shany.jpg" class="card-img-top" alt="Variedad de Pantalones">
                 <div class="card-body">
                   <h5 class="card-title">Pantalones</h5>
-                  <p class="card-text">Conoce nuestra gran variedad de pantalones de la última temporada 2022, para hombres y
-                    mujeres de todas las edades.</p>
+                  <p class="card-text">Descubre nuestra colección de pantalones, desde los clásicos hasta los más modernos. 
+                    Encuentra el estilo perfecto para cada ocasión, desde un look casual hasta uno más elegante.</p>
                   <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
               </div>
@@ -84,8 +106,9 @@
                 <img src="imagenes/vestidos-shany.jpg" class="card-img-top" alt="Variedad de Vestidos">
                 <div class="card-body">
                   <h5 class="card-title">Vestidos</h5>
-                  <p class="card-text">Conoce nuestra gran variedad de vestidos de la última temporada 2022, para mujeres de
-                    todas las edades.</p>
+                  <p class="card-text">Descubre la colección de vestidos Shany Store. 
+                    Desde looks casuales para el día a día hasta diseños elegantes para ocasiones especiales, 
+                    tenemos el vestido perfecto para cada mujer.</p>
                   <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
               </div>
@@ -95,8 +118,8 @@
                 <img src="imagenes/ropa-interior-shany.jpg" class="card-img-top" alt="Variedad de Ropa Interior">
                 <div class="card-body">
                   <h5 class="card-title">Ropa Interior</h5>
-                  <p class="card-text">Conoce nuestra gran variedad de ropa interior de la última temporada 2022, para mujeres
-                    de todas las edades.</p>
+                  <p class="card-text"> Descubre nuestra colección de ropa interior diseñada para brindarte comodidad y sujeción durante todo el día. 
+                    Elige entre una variedad de estilos y materiales que se adaptan a tu cuerpo y a tus necesidades.</p>
                   <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
               </div>
