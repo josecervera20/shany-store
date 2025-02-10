@@ -132,7 +132,7 @@ h1 {
 /* Testimonios */
 
 .testimonios {
-  padding: 40px 40px 80px 40px;
+  padding: 2rem 2rem 0 2rem;
 }
 
 .testimonios .carousel {
@@ -181,4 +181,10 @@ h1 {
 .testimonio-info .cargo {
   font-size: 0.9rem;
   color: #656060;
+}
+
+/* Ubicacion */
+
+#ubicacion {
+  margin: 2rem;
 }
