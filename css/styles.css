@@ -69,19 +69,6 @@ h1 {
   text-align: justify;
 }
 
-.btn-info {
-  font-size: 1.1rem;
-  margin: 20px;
-}
-
-.texto-negro {
-  color: black;
-}
-
-.texto-blanco {
-  color: white;
-}
-
 /* Seccion Hero */
 
 .hero {
@@ -294,4 +281,23 @@ footer {
   font-size: 15px;
   color: #aeaeae;
   padding: 20px;
+}
+
+/* Adaptable (Responsivo) */
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .testimonio-imagen {
+    height: 120px;
+    width: 120px;
+  }
+
+  .testimonio-texto {
+    font-size: 18px;
+  }
 }
