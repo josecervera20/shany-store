@@ -12,13 +12,13 @@
 }
 
 .navbar-brand {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.4rem;
 }
 
 .navbar-brand i {
-  color: #c71585;
-  margin-right: 0.5rem;
+  color: #5a1e6e;
+  margin-right: 0.3rem;
 }
 
 .navbar-nav .nav-link {
@@ -26,7 +26,7 @@
 }
 
 .navbar-nav .nav-link:hover {
-  color: #c71585;
+  color: #5a1e6e;
 }
 
 /* Estilos generales */
@@ -44,13 +44,13 @@ h1 {
 }
 
 .seccion-oscura {
-  color: white;
-  background-color: #1b1b32;
+  color: #ffffff;
+  background-color: #1e2036;
 }
 
 .seccion-clara {
   color: black;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .seccion-titulo {
@@ -61,7 +61,7 @@ h1 {
 
 .seccion-descripcion {
   font-size: 1.2rem;
-  color: #584e4e;
+  color: #483e3e;
 }
 
 .seccion-texto {
@@ -89,13 +89,13 @@ h1 {
 
 .hero-principal h2 {
   font-size: 1.5rem;
-  color: #615151;
+  color: #514141;
 }
 
 /* Sobre Shany */
 
 .sobre-shany {
-  height: 400px;
+  height: 450px;
   padding: 10px;
 }
 
@@ -111,9 +111,9 @@ h1 {
 }
 
 .card {
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .card-img-top {
@@ -180,7 +180,7 @@ h1 {
 
 .testimonio-info .cargo {
   font-size: 0.9rem;
-  color: #656060;
+  color: #555050;
 }
 
 /* Ubicacion */
@@ -200,9 +200,9 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -4rem;
-  background-color: rgb(13, 110, 253);
+  background-color: #780071;
   border-radius: 10px;
-  box-shadow: 0px 1px 4px 1px white;
+  box-shadow: 0px 1px 4px 1px #ffffff;
 }
 
 .contacto .row {
@@ -212,15 +212,15 @@ h1 {
 }
 
 .contacto .descripcion {
-  color: white;
+  color: #ffffff;
   font-size: 1.2rem;
 }
 
 .contacto button {
-  color: white;
+  color: #ffffff;
   font-weight: bold;
   background-color: transparent;
-  border: 2px solid white;
+  border: 2px solid #ffffff;
   padding: 1.25em 2em;
   margin: 10px;
   border-radius: 100px;
@@ -228,12 +228,12 @@ h1 {
 }
 
 .contacto button:hover {
-  background-color: white;
+  background-color: #ffffff;
   color: black;
 }
 
 .contacto button i {
-  color: white;
+  color: #ffffff;
   font-size: 1.3rem;
   transition: all 0.2s ease-in-out;
 }
@@ -249,8 +249,8 @@ footer {
 }
 
 .footer-logo {
-  height: 115px;
-  width: 115px;
+  height: 140px;
+  width: 140px;
   margin: 10px;
   border-radius: 50%;
 }
@@ -270,20 +270,20 @@ footer {
   justify-content: center;
   padding: 2px;
   margin: 10px;
-  border: 2px solid white;
+  border: 2px solid #ffffff;
   border-radius: 50%;
   transition: all 0.2s ease-in;
 }
 
 .iconos-redes-sociales i {
-  color: white;
+  color: #ffffff;
   font-size: 1.5rem;
   transition: all 0.2s ease-in;
 }
 
 .iconos-redes-sociales a:hover {
-  background-color: white;
-  border: 2px solid rgb(13, 110, 253);
+  background-color: #ffffff;
+  border: 2px solid #780071;
 }
 
 .iconos-redes-sociales a:hover i {
@@ -292,7 +292,7 @@ footer {
 
 .derechos-de-autor {
   font-size: 15px;
-  color: #aeaeae;
+  color: #dfdfdf;
   padding: 20px;
 }
 
